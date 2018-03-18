@@ -1,0 +1,6 @@
+backend = "ssm"
+confdir = "/etc/confd"
+log-level = "debug"
+noop = false
+prefix = "/example"
+scheme = "https"

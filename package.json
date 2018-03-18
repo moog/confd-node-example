@@ -1,0 +1,16 @@
+{
+  "name": "confd-node-example",
+  "version": "0.0.1",
+  "description": "Example of confd setup using SSM as backend and Node.js server consuming confd generated template.",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "node -r dotenv/config app/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@moog",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "5.0.1",
+    "express": "4.16.3"
+  }
+}

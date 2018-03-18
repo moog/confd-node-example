@@ -1,0 +1,6 @@
+[template]
+src = "template.conf.tmpl"
+dest = "/confd-example/.env"
+keys = [
+  "/foo" 
+]

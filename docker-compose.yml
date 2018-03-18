@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  confd-example:
+    build: .
+    entrypoint: ./docker-entrypoint.sh
+    ports:
+      - 3000:3000
+    env_file:
+      - .aws.env
